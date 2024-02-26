@@ -1,0 +1,10 @@
+git init
+git clear
+
+Local project level
+git config user.name
+git config user.email
+
+Globaly
+git config -g user.name
+git config -g user.email
