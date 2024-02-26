@@ -8,3 +8,6 @@ git config user.email
 Globaly
 git config -g user.name
 git config -g user.email
+
+git branch
+git checkout

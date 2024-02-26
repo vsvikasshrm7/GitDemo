@@ -10,6 +10,14 @@ public class Cars {
         this.price = price;
     }
 
+    @Override
+    public String toString() {
+        return "Cars{" +
+                "price=" + price +
+                ", size=" + size +
+                '}';
+    }
+
     public int getSize() {
         return size;
     }
