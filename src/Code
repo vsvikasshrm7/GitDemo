@@ -11,3 +11,17 @@ git config -g user.email
 
 git branch
 git checkout
+
+git checkout -b <branchname>
+
+we can connect our local git repo to multiple remote repo
+In general its only one remote repo per local repo
+
+Name of remote repo[Key] -> "Link "
+key ->origin
+
+
+ git remote add origin https://github.com/vsvikasshrm7/GitDemo.git
+
+
+raising a Pull Request PR
