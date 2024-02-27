@@ -1,13 +1,11 @@
 public class Cars {
     private int price;
     private int size;
+    private int maxspeed;
+
 
     public int getPrice() {
         return price;
-    }
-
-    public void setPrice(int price) {
-        this.price = price;
     }
 
     @Override
@@ -15,7 +13,12 @@ public class Cars {
         return "Cars{" +
                 "price=" + price +
                 ", size=" + size +
+                ", maxspeed=" + maxspeed +
                 '}';
+    }
+
+    public void setPrice(int price) {
+        this.price = price;
     }
 
     public int getSize() {
@@ -26,8 +29,17 @@ public class Cars {
         this.size = size;
     }
 
-    public Cars(int price, int size) {
+    public int getMaxspeed() {
+        return maxspeed;
+    }
+
+    public void setMaxspeed(int maxspeed) {
+        this.maxspeed = maxspeed;
+    }
+
+    public Cars(int price, int size, int maxspeed) {
         this.price = price;
         this.size = size;
+        this.maxspeed = maxspeed;
     }
 }
